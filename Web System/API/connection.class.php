@@ -1,9 +1,9 @@
 <?php
 class Common{
     public $conn;
-    public $servername = "192.168.64.2";
+    public $servername = "localhost";
     public $username = "admin";
-    public $password = "1234";
+    public $password = "";
     public $dbname = "ptmsdb";
     public function __construct(){
         //session_start();
